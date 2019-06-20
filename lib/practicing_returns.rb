@@ -9,5 +9,7 @@ def hello(array)
   end
   collection
 end
+end
+binding.pry
 
 hello(["Tim", "Tom", "Jim"]) { |name| "Hi, #{name}" }
